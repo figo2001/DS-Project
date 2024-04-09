@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Blog</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+            integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Custom CSS --> 
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <!-- Header starts here -->
+   <header id ='blog header'>
+    <figure class="logo-figure">
+        <i class="fab fa-autoprefixer logo"></i>
+    </figure>
+    <i class="fas fa-bars fa-4x" id="menu_icon"></i>
+
+    <nav id ="menu" class="hidden">
+        <ul>
+            <li><a href="#" class="nav_link">Home</a></li>
+            <li><a href="#blog-about" class="nav_link">About</a></li>
+            <li><a href="#archieves" class="nav_link">Workflows</a></li>
+            <li><a href="#blog-posts" class="nav_link">Blog Posts</a></li>
+            <li><a href="#contact-section" class="nav_link" >Contact</a></li>
+        </ul>
+    </nav>
+   </header>
+    <!-- Header ends here -->
+<main>
+    <!--Blog Banner starts here-->
+    <section id="blog-banner-section" class="banner">
+        <article>
+            <h1 class="banner_heading">Data Science and..</h1>
+            <p class="banner_description text-justify">
+            Data science is an emerging field blending statistics, computer science, and domain knowledge to extract insights from
+            data. In India, data science is gaining prominence as industries recognize its potential to drive informed
+            decision-making and innovation. With a growing demand for skilled professionals, pursuing a career in data science
+            offers vast opportunities in the Indian job market.
+            </p>
+        </article>
+        <aside>
+            <img src="./images/main.jpeg" alt="cover-photo"
+            class="banner_img">
+        </aside>
+
+    </section>
+    <!--Blog Banner ends here-->
+
+    <!--About me section starts here-->
+    <section id="blog-about" class="section-center">
+        <h2 class="section-heading text-white">About Techs</h2>
+        <div class="cards">
+            <div class="card">
+                <h3 class="card_header">AI</h3>
+                <p class="card_description text-justify">Artificial Intelligence is revolutionizing industries across India, offering innovative solutions to complex
+                problems. With AI's rapid advancements, it's poised to shape the future of technology and business in our country.
+                </p>
+                    <button onclick="window.open('https://www.datacamp.com/blog/how-to-learn-ai', '_blank');" class="btn_card" a href="">Read More</button>
+            </div>
+
+            <div class="card">
+                <h3 class="card_header">Machine Learning</h3>
+                <p class="card_description text-justify">Machine learning is the study of algorithms that enable computers to learn from data and make predictions or decisions.
+                It finds extensive applications in fields like finance, healthcare, and e-commerce, revolutionizing how we analyze and
+                utilize information.</p>
+                <button onclick="window.open('https://www.tensorflow.org/resources/learn-ml', '_blank');" class="btn_card">Read More</button>
+            </div>
+
+            <div class="card">
+                <h3 class="card_header">Deep Learning</h3>
+                <p class="card_description text-justify">Deep learning is a cutting-edge field of study that delves into training computers to think and learn like humans. It
+                holds immense promise in revolutionizing various industries with its powerful algorithms and neural networks.</p>
+                <button onclick="window.open('https://www.geeksforgeeks.org/introduction-deep-learning/', '_blank');" class="btn_card">Read More</button>
+            </div>
+
+        </div>
+
+    </section>
+    <!--About me section ends here-->
+
+    <!--Archive Section starts here-->
+    <section id="archieves" class="section-center">
+        <h2 class="section-heading">Workflows</h2>
+        <div class="archieves-container">
+            <ul class="archieves_lists">
+                <li class="archieves_list">
+                    <a href="https://googlr.com">
+                    <img src="./images/img-1.jpg" alt="image1" class="archieves_img">
+                    </a>
+                </li>
+                    <li class="archieves_list"><img src="./images/img-2.jpg"
+                         alt="image2" class="archieves_img"></li>
+                    <li class="archieves_list"><img src="./images/img-3.jpg" 
+                        alt="image3" class="archieves_img"></li>
+                    <li class="archieves_list"><img src="./images/img-1.jpg"
+                         alt="image4" class="archieves_img"></li>
+            </ul>
+        </div>
+    </section>
+    <!--Archive Section ends here-->
+
+    <!--Blog Posts starts ends here-->
+    <section id="blog-posts" class="section-center">
+        <h2 class="section-heading">Blog Posts</h2>
+        <div class="section-center">
+            <div class="blog-post">
+                <aside class="blog-post_aside">
+                    <img src="./images/lang.jpg"
+                    alt="blog-img2">
+                </aside>
+                <article class="blog-post_content">
+                    <h2 class="blog-post_heading">LangChain</h2>
+                    <h3 class="blog-post_subheading">
+                        LLM Models
+                    </h3>
+                    <p>LangChain is revolutionizing the way we interact with artificial intelligence by creating platforms that facilitate
+                    seamless integration of language models into applications. It's at the forefront of exploring and expanding the
+                    boundaries of conversational AI, enabling developers and businesses to build more intelligent, context-aware
+                    applications.</p>
+                    <button onclick="window.open('https://www.langchain.com/', '_blank');" class="btn_card blog-post_bnt">Read More</button>
+                    
+                </article>
+
+            </div>
+
+                <div class="blog-post">
+                    <aside class="blog-post_aside">
+                        <img src="./images/NLP.jpg" alt="blog-img2">
+                    </aside>
+                    <article class="blog-post_content">
+                        <h2 class="blog-post_heading">What is NLP?</h2>
+                        <h3 class="blog-post_subheading">
+                            Chatbots and AI
+                        </h3>
+                        <p>Natural Language Processing (NLP) is the bridge between human language and computer understanding. Through algorithms
+                        and linguistic analysis, NLP enables machines to comprehend, interpret, and generate human language data,
+                        revolutionizing communication and information processing.</p>
+                        <button onclick="window.open('https://www.ibm.com/topics/natural-language-processing', '_blank');" class="btn_card blog-post_bnt">Read More</button>
+            
+                    </article>
+            
+                </div>
+
+                    <div class="blog-post">
+                        <aside class="blog-post_aside">
+                            <img src="./images/gan3.webp" alt="blog-img2">
+                        </aside>
+                        <article class="blog-post_content">
+                            <h2 class="blog-post_heading">GAN</h2>
+                            <h3 class="blog-post_subheading">
+                                Adversarial neural networks generating diverse content.
+                            </h3>
+                            <p>Generative Adversarial Networks (GANs) stand as a transformative frontier in deep learning, enabling machines to
+                            generate startlingly realistic images and media by pitting two neural networks against each other. This innovative
+                            framework not only enriches content creation but also propels advancements in fields ranging from art generation to data
+                            augmentation, showcasing the depth and adaptability of modern AI.</p>
+                            <button onclick="window.open('https://machinelearningmastery.com/what-are-generative-adversarial-networks-gans/', '_blank');"  class="btn_card blog-post_bnt">Read More</button>
+                
+                        </article>
+                
+                    </div>
+
+        </div>
+    </section>
+    <!--Blog Posts ends here-->
+
+    <!--Contact Section starts here-->
+    <section id="contact-section" class="section-center">
+        <h2 class="section-heading text-white">
+            Contact Me
+        </h2>
+        <form>
+            <div class="form-control">
+                <label for="name">Name</label>
+                <input type="text" id="name" autocomplete="name" required/>
+            </div>
+
+            <div class="form-control">
+                <label for="email">Email</label>
+                <input type="email" id="email" autocomplete="email" required/>
+            </div>
+
+            <div class="form-control">
+                <label for="message">Message</label>
+                <textarea type="message" id="message"></textarea>
+            </div>
+
+            <div class="form-control form-btn-field">
+               <button class="btn_card contact_btn">Submit</button>
+            </div>
+        </form>
+    </section>
+    <!--Contact Section ends here-->
+
+
+
+</main>
+<footer class="footer">
+    <p class="copyright">
+        Copyright &copy; by Nilabja Roy. All rights reserved.
+    </p>
+    <nav class="footer_nav">
+
+        <a href="#blog-banner-section" class="footer_link">
+                <i class=" fa fa-home footer_icon"></i>
+        </a>
+
+        <a href="#" target="_blank" class="footer_link"">
+        <i class="fab fa-github footer_icon"></i>
+        </a>
+
+        <a href="#" target="_blank" class="footer_link"">
+                <i class=" fab fa-kaggle footer_icon"></i>
+        </a>
+
+        <a href="#" target="_blank" class="footer_link"">
+                <i class=" fab fa-twitter footer_icon"></i>
+        </a>
+
+        <a href="#" target="_blank" class="footer_link"">
+                <i class=" fab fa-linkedin footer_icon"></i>
+        </a>
+    </nav>
+</footer>
+
+<script src="index.js"></script>
+</body>
+</html>
